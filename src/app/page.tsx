@@ -5,17 +5,24 @@ import { Projects } from "@/components/sections/Projects";
 import { Education } from "@/components/sections/Education";
 import { Recognition } from "@/components/sections/Recognition";
 import { Contact } from "@/components/sections/Contact";
+import { Footer } from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black selection:bg-neutral-800 selection:text-white">
+    <main className="min-h-screen bg-[#0c0c0c] relative selection:bg-lime/30 selection:text-lime">
+      {/* Navigation Bar */}
       <Navbar />
+
+      {/* Sections */}
       <Hero />
       <About />
       <Projects />
       <Education />
       <Recognition />
       <Contact />
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }
