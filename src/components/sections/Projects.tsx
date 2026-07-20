@@ -67,6 +67,15 @@ export function Projects() {
         <!-- PLACEHOLDER COPY: Shree can edit this description -->
         <p class="text-white/60 text-sm md:text-base leading-relaxed">
           An optimization tool that evaluates resume compatibility against major Application Tracking Systems (ATS), providing scoring and formatting suggestions to candidates.
+      `
+    },
+    {
+      num: "07",
+      title: "Full-Spectrum AI Agent: Dev, Cloud & Marketing",
+      tags: ["Full-Spectrum AI", "Dev & Cloud", "Growth Strategy"],
+      descHtml: `
+        <p class="text-white/60 text-sm md:text-base leading-relaxed">
+          I engineered a custom AI assistant that handles development, cloud architecture, and digital marketing in one unified interface. It seamlessly bridges the gap between technical execution and growth strategy to streamline complex workflows.
         </p>
       `
     }
