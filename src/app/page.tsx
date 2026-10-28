@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/ui/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
+import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
 import { Education } from "@/components/sections/Education";
 import { Recognition } from "@/components/sections/Recognition";
@@ -16,6 +17,7 @@ export default function Home() {
       {/* Sections */}
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Education />
       <Recognition />

@@ -47,6 +47,11 @@ export function Footer() {
               </a>
             </li>
             <li>
+              <a href="#experience" className="text-white/60 hover:text-lime transition-colors">
+                Experience
+              </a>
+            </li>
+            <li>
               <a href="#projects" className="text-white/60 hover:text-lime transition-colors">
                 Projects
               </a>
