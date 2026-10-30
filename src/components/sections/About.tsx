@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Cpu, Cloud, Radio, CheckSquare, Layers, Award } from "lucide-react";
+import { Cpu, Cloud, Radio, CheckSquare, Layers } from "lucide-react";
 
 export function About() {
   const coreSkills = [
+    { name: "Full-Stack Development", level: 92, desc: "Modern web architectures, responsive interfaces & full-stack logic" },
     { name: "Project Management", level: 85, desc: "Team sync & delivery" },
-    { name: "Web Design", level: 90, desc: "Aesthetics & interactions" },
-    { name: "Database Management", level: 80, desc: "SQL & data integrity" },
+    { name: "Digital Marketing", level: 88, desc: "Campaign strategy, SEO fundamentals & growth optimization" },
+    { name: "Content Writing", level: 86, desc: "Technical copy, structured narrative & engagement assets" },
     { name: "Communication", level: 95, desc: "Collaboration & pitches" },
     { name: "Multitasking", level: 88, desc: "Parallel workflow execution" },
   ];
@@ -50,9 +51,9 @@ export function About() {
                 </div>
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-5">
                 {coreSkills.map((skill) => (
-                  <div key={skill.name} className="space-y-2">
+                  <div key={skill.name} className="space-y-1.5">
                     <div className="flex justify-between text-xs">
                       <span className="font-sans font-medium text-white/80">{skill.name}</span>
                       <span className="font-mono text-lime font-bold">{skill.level}%</span>
@@ -111,7 +112,7 @@ export function About() {
             </div>
 
             <div className="mt-8 border-t border-white/5 pt-6 text-[10px] text-white/30 font-mono tracking-widest uppercase">
-              // DESIGN DISCIPLINE
+              {"// DESIGN DISCIPLINE"}
             </div>
           </div>
 
